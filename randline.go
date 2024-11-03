@@ -48,7 +48,6 @@ func readFromStdin() (string, error) {
 		totbytes += nbytes
 		bytes = append(bytes, buf[:nbytes]...)
 	}
-	fmt.Println(totbytes)
 	return readFromByteBuffer(bytes)
 }
 
