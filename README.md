@@ -1,6 +1,8 @@
 # randline
 #### a simple unix friendly command to pick a random line from a file
 
+could pick an empty line from the file as well.
+
 ##### to build:
 `go build randline`
 
